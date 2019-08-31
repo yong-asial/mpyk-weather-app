@@ -1,0 +1,13 @@
+{
+  "name": "mpyk-weather-app",
+  "displayName": "MPyK Weather App",
+  "dependencies": {},
+  "scripts": {
+    "build": "workbox injectManifest workbox-config.js",
+    "dev": "browser-sync start -s www/ --watch --port 8080 --ui-port 8081"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "workbox-cli": "^4.3.1"
+  }
+}
