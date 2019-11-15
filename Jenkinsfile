@@ -7,11 +7,5 @@ pipeline {
       }
     }
 
-    stage('s2') {
-      steps {
-        build 'Test 2'
-      }
-    }
-
   }
 }
